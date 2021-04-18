@@ -1,4 +1,4 @@
-## acha formato de arquvios
+## Acha formato de arquvios
 
 - Programa simples que acha de quem é o formato do arquivo..
 
