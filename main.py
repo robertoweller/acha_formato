@@ -9,7 +9,7 @@ arq_jso = open(local, "r")
 # Carregar arquivos json
 arq_jso = json.load(arq_jso)
 
-print("Digite o formato, exemplo .p")
+print("Digite o formato, exemplo '.p'")
 
 while True:
 
