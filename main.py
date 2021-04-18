@@ -17,12 +17,11 @@ while True:
 
     achou = False
     procura = input("Digite: ")
-    for i in range(len(arq_jso)):
+    for i in arq_jso:
 
-        if "extensions" in arq_jso[i]:
-            if procura in arq_jso[i]["extensions"]:
-                print(arq_jso[i]["name"])
-                achou = True
+        if procura in i["extensions"]:
+            print(i["name"])
+            achou = True
 
     # Se não achou
     if achou != True:
