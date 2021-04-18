@@ -14,7 +14,7 @@ print("Type the ending, the format with just the dot, example '.p'\n")
 
 
 while True:
-    c = 0
+
     achou = False
     procura = input("Digite: ")
     for i in range(len(arq_jso)):
